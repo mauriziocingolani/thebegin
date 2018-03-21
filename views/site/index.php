@@ -1,3 +1,10 @@
+<?php
+
+use app\assets\MainAsset;
+
+MainAsset::register($this);
+?>
+
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">

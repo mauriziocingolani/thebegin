@@ -11,6 +11,10 @@ class MainAsset extends AssetBundle {
     public $css = [
         'css/main/agency.css',
         'css/main/bootstrap.min.css',
+        '//fonts.googleapis.com/css?family=Montserrat:400,700',
+        '//fonts.googleapis.com/css?family=Kaushan+Script',
+        '//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic',
+        '//fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700',
     ];
     public $js = [
         'js/main/jquery/jquery.min.js',
@@ -22,10 +26,6 @@ class MainAsset extends AssetBundle {
         'js/main/agency.min.js',
     ];
     public $depends = [
-//        'yii\web\YiiAsset',
-//        'yii\web\JqueryAsset',
-//        'yii\bootstrap\BootstrapAsset',
-//        'yii\bootstrap\BootstrapPluginAsset',
         '\rmrevin\yii\fontawesome\AssetBundle',
     ];
 

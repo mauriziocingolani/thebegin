@@ -18,6 +18,10 @@ class SiteController extends TheBeginController {
         return $this->render('index');
     }
 
+    public function actionVillaKalysta() {
+        return $this->render('kalysta');
+    }
+
     public function actionOffline() {
         return $this->render('offline');
     }
