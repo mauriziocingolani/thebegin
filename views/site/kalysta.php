@@ -1,6 +1,7 @@
 <?php
 
 use app\assets\KalystaAsset;
+use mauriziocingolani\yii2fmwkphp\Html;
 
 /* @var $this \mauriziocingolani\yii2fmwkphp\View */
 
@@ -11,23 +12,25 @@ $this->pageTitle = 'Villa Kalista';
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            Villa Kalysta
+        </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                    <a class="nav-link js-scroll-trigger" href="#villa">VILLA</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+                    <a class="nav-link js-scroll-trigger" href="#facilities">FACILITIES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                    <a class="nav-link js-scroll-trigger" href="#structure">STRUCTURE</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    <a class="nav-link js-scroll-trigger" href="#contact">CONTACT</a>
                 </li>
             </ul>
         </div>
@@ -39,36 +42,41 @@ $this->pageTitle = 'Villa Kalista';
         <div class="row">
             <div class="col-lg-10 mx-auto">
                 <h1 class="text-uppercase">
-                    <strong>Your Favorite Source of Free Bootstrap Themes</strong>
+                    <strong>VILLA KALYSTA, AN EXCLUSIVE AND REFINED ATMOSPHERE</strong>
                 </h1>
                 <hr>
             </div>
             <div class="col-lg-8 mx-auto">
-                <p class="text-faded mb-5">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-                <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+                <p class="text-faded mb-5">
+                    Villa Kalysta is a luxury villa built in the Mediterranean Style, with the beach and waters of the Adriatic literally a few steps away. Particularly suitable for families and groups.
+                </p>
+                <a class="btn btn-primary btn-xl js-scroll-trigger" href="#villa">Discover</a>
             </div>
         </div>
     </div>
 </header>
 
-<section class="bg-primary" id="about">
+<section class="bg-primary" id="villa">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto text-center">
-                <h2 class="section-heading text-white">We've got what you need!</h2>
+                <h2 class="section-heading text-white">Between dream and reality</h2>
+                <img src="/img/kalysta/logo.png" alt="logo-kalysta" />
                 <hr class="light my-4">
-                <p class="text-faded mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-                <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+                <p class="text-faded mb-4">
+                    Located directly on the sea in the beautiful bay of Paleokastrista in Corfu Island, Villa Kalysta offers its Guests an exclusive and refined atmosphere. Here many services are available: private Chef, concierge, babysitting, limousine transfer, scuba diving, event organization and Wedding Planning. Furthermore, our Guests could enjoy the possibility to rent a yacht in order to discover the island and its treasures. Even a private jet is at disposal to reach Corfu and fly back home.
+                </p>
+                <a class="btn btn-light btn-xl js-scroll-trigger" href="#facilities">Facilities</a>
             </div>
         </div>
     </div>
 </section>
 
-<section id="services">
+<section id="facilities">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">At Your Service</h2>
+                <h2 class="section-heading">Facilities</h2>
                 <hr class="my-4">
             </div>
         </div>
@@ -77,137 +85,76 @@ $this->pageTitle = 'Villa Kalista';
         <div class="row">
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box mt-5 mx-auto">
-                    <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
-                    <h3 class="mb-3">Sturdy Templates</h3>
-                    <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
+                    <img src="/img/kalysta/icons/icone villa rooms.png" src="icona1" class="sr-icons" />
+                    <h3 class="mb-3">Rooms</h3>
+                    <p class="text-muted mb-0">5 luxury rooms<br />with 12 sleeps</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box mt-5 mx-auto">
-                    <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
-                    <h3 class="mb-3">Ready to Ship</h3>
-                    <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
+                    <img src="/img/kalysta/icons/icone villa beach.png" src="icona2" class="sr-icons" />
+                    <h3 class="mb-3">Beach</h3>
+                    <p class="text-muted mb-0">Direct access<br />to the beach</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box mt-5 mx-auto">
-                    <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
-                    <h3 class="mb-3">Up to Date</h3>
-                    <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
+                    <img src="/img/kalysta/icons/icone villa pool.png" src="icona3" class="sr-icons" />
+                    <h3 class="mb-3">Pool</h3>
+                    <p class="text-muted mb-0">Swimming Pool with bar<br />and whirlpool area</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box mt-5 mx-auto">
-                    <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
-                    <h3 class="mb-3">Made with Love</h3>
-                    <p class="text-muted mb-0">You have to make your websites with love these days!</p>
+                    <img src="/img/kalysta/icons/icone villa bbq.png" src="icona4" class="sr-icons" />
+                    <h3 class="mb-3">Bbq</h3>
+                    <p class="text-muted mb-0">Outdoor kitchen<br />with barbecue</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="p-0" id="portfolio">
+<section class="p-0" id="structure">
     <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
-            <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="img/kalysta/portfolio/fullsize/1.jpg">
-                    <img class="img-fluid" src="img/kalysta/portfolio/thumbnails/1.jpg" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
-                            <div class="project-name">
-                                Project Name
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="img/kalysta/portfolio/fullsize/2.jpg">
-                    <img class="img-fluid" src="img/kalysta/portfolio/thumbnails/2.jpg" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
-                            <div class="project-name">
-                                Project Name
+            <?php
+            $images = [
+                'POOL' => 'BBQ PISCINA.jpg',
+                'ROOMS' => 'CAMERA.jpg',
+                'KITCHEN' => 'CUCINA 1.jpg',
+                'LIVING' => 'LIVING 1.jpg',
+                'VERANDA' => 'LIVING 2.jpg',
+                'OUTDOOR' => 'VERANDA 2.jpg',
+            ];
+            foreach ($images as $cat => $img) :
+                ?>
+
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="/img/kalysta/structure/<?= $img; ?>">
+                        <img class="img-fluid" src="/img/kalysta/structure/<?= $img; ?>" alt="img">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    <?= $cat; ?>
+                                </div>
+                                <div class="project-name">
+                                    Click to enlarge
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="img/kalysta/portfolio/fullsize/3.jpg">
-                    <img class="img-fluid" src="img/kalysta/portfolio/thumbnails/3.jpg" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
-                            <div class="project-name">
-                                Project Name
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="img/kalysta/portfolio/fullsize/4.jpg">
-                    <img class="img-fluid" src="img/kalysta/portfolio/thumbnails/4.jpg" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
-                            <div class="project-name">
-                                Project Name
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="img/kalysta/portfolio/fullsize/5.jpg">
-                    <img class="img-fluid" src="img/kalysta/portfolio/thumbnails/5.jpg" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
-                            <div class="project-name">
-                                Project Name
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="img/kalysta/portfolio/fullsize/6.jpg">
-                    <img class="img-fluid" src="img/kalysta/portfolio/thumbnails/6.jpg" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
-                            <div class="project-name">
-                                Project Name
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
+                    </a>
+                </div>
+
+            <?php endforeach; ?>
         </div>
     </div>
 </section>
 
 <section class="bg-dark text-white">
     <div class="container text-center">
-        <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-        <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
+        <h2 class="mb-4">Villa Kalysta</h2>
+        <a class="btn btn-light btn-xl sr-button" href="http://www.villakalysta.com/">visit our website</a>
     </div>
 </section>
 
@@ -215,20 +162,25 @@ $this->pageTitle = 'Villa Kalista';
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto text-center">
-                <h2 class="section-heading">Let's Get In Touch!</h2>
+                <img src="/img/kalysta/logo-the-begin.png" alt="logo-the-begin" class="img-responsive" />
                 <hr class="my-4">
-                <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                <h2 class="section-heading">THE BEGIN S.R.L.</h2>
+                <p class="mb-5">
+                    Via Piemonte 39/A<br />
+                    00187 Roma<br />
+                    P.I. – C.F. 09882480156
+                </p>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-4 ml-auto text-center">
                 <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-                <p>123-456-6789</p>
+                <p>[+39] 071 285 23 46</p>
             </div>
             <div class="col-lg-4 mr-auto text-center">
                 <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
                 <p>
-                    <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
+                    <?= Html::mailto('info@thebegincollection.it'); ?>
                 </p>
             </div>
         </div>

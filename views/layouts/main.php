@@ -31,8 +31,17 @@ use mauriziocingolani\yii2fmwkphp\Html;
         <?php $this->endBody(); ?>
     </body>
 
-    <!-- GOOGLE ANALYTICS -->
-    <?php # echo GoogleAnalytics::widget([]); ?>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-61458133-4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-61458133-4');
+    </script>
 
 </html>
 <?php $this->endPage(); ?>

@@ -25,7 +25,7 @@ class KalystaAsset extends AssetBundle {
         'js/kalysta/jquery-easing/jquery.easing.min.js',
         'js/kalysta/scrollreveal/scrollreveal.min.js',
         'js/kalysta/magnific-popup/jquery.magnific-popup.min.js',
-        'js/kalysta/creative.min.js',
+        'js/kalysta/creative.js',
     ];
     public $depends = [
         '\rmrevin\yii\fontawesome\AssetBundle',
