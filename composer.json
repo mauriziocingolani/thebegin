@@ -1,0 +1,34 @@
+{
+    "name": "mauriziocingolani/thebegin collection",
+    "description": "Yii 2 Sito The Begin Collection",
+    "authors": [
+        {
+            "name": "Maurizio Cingolani",
+            "email": "maurizio@mauriziocingolani.it"
+        }
+    ],
+    "keywords": [
+        "yii",
+        "framework",
+        "sito",
+        "the begin",
+        "collection"
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "2.0.15",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-debug": "*",
+        "mauriziocingolani/yii2-fmwk-php": "*",
+        "rmrevin/yii2-fontawesome": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}

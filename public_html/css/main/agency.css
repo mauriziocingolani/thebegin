@@ -7,7 +7,7 @@ body {
     overflow-x: hidden;
     font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
-p {
+p { 
     line-height: 1.75; }
 
 a {
@@ -116,7 +116,7 @@ body {
 header.masthead {
     text-align: center;
     color: white;
-    background-image: url("../img/BANNER PRINCIPALE.jpg");
+    background-image: url("../../img/BANNER PRINCIPALE.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -450,7 +450,7 @@ header.masthead .intro-text .intro-heading {
 
 section#contact {
     background-color: #222222;
-    background-image: url("../img/1900x1250_2_BANNER PRINCIPALE.jpg");
+    background-image: url("../../img/1900x1250_2_BANNER PRINCIPALE.jpg");
     background-repeat: no-repeat;
     background-position: center; }
 section#contact .section-heading {
