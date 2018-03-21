@@ -169,6 +169,8 @@ $this->pageTitle = 'Villa Kalista';
                     Via Piemonte 39/A<br />
                     00187 Roma<br />
                     P.I. – C.F. 09882480156
+                    <br /><br />
+                    <a href="#cookies" data-toggle="modal"><small>Cookie Policy</small></a>
                 </p>
             </div>
         </div>
@@ -186,3 +188,5 @@ $this->pageTitle = 'Villa Kalista';
         </div>
     </div>
 </section>
+
+<?= $this->renderInclude('_cookies'); ?>
