@@ -104,7 +104,7 @@ MainAsset::register($this);
             <div class="col-sm-4"></div>
             <div class="col-lg-4 text-center">
                 <h2 class="section-heading">Our Hotels</h2>
-                <h3 class="section-subheading text-muted">a new experience of ospitality</h3>
+                <h3 class="section-subheading text-muted">a new experience of hospitality</h3>
             </div>
         </div>
         <div class="row text-center p-italiano">
