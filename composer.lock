@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e4c3218794701a06b06bdd953d9c9a49",
+    "content-hash": "b33672ba4a865f54b7215376aa8b38ef",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -53,7 +53,8 @@
                 "mobile-first",
                 "responsive",
                 "web"
-            ]
+            ],
+            "time": "2016-07-25T15:51:55+00:00"
         },
         {
             "name": "bower-asset/inputmask",
@@ -112,7 +113,8 @@
                 "jquery",
                 "mask",
                 "plugins"
-            ]
+            ],
+            "time": "2017-11-21T11:46:23+00:00"
         },
         {
             "name": "bower-asset/jquery",
@@ -143,7 +145,8 @@
                 "javascript",
                 "jquery",
                 "library"
-            ]
+            ],
+            "time": "2017-03-20T19:02:00+00:00"
         },
         {
             "name": "bower-asset/punycode",
@@ -171,7 +174,8 @@
                     "node_modules",
                     "package.json"
                 ]
-            }
+            },
+            "time": "2014-10-22T12:02:42+00:00"
         },
         {
             "name": "bower-asset/yii2-pjax",
@@ -372,17 +376,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mauriziocingolani/yii2-fmwk-php.git",
-                "reference": "893db7c4c11f1f737bb1b4edf0e923cebff8da51"
+                "reference": "a9b7a3b0b79e9da0b65bc9e9d69f1dd7b430594a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mauriziocingolani/yii2-fmwk-php/zipball/893db7c4c11f1f737bb1b4edf0e923cebff8da51",
-                "reference": "893db7c4c11f1f737bb1b4edf0e923cebff8da51",
+                "url": "https://api.github.com/repos/mauriziocingolani/yii2-fmwk-php/zipball/a9b7a3b0b79e9da0b65bc9e9d69f1dd7b430594a",
+                "reference": "a9b7a3b0b79e9da0b65bc9e9d69f1dd7b430594a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0",
-                "rmrevin/yii2-fontawesome": "*",
+                "rmrevin/yii2-fontawesome": "2.17.1",
                 "yiisoft/yii2": "*"
             },
             "type": "library",
@@ -408,20 +412,20 @@
                 "php",
                 "yii2"
             ],
-            "time": "2018-02-27T09:01:55+00:00"
+            "time": "2018-10-01T08:46:55+00:00"
         },
         {
             "name": "rmrevin/yii2-fontawesome",
-            "version": "dev-master",
+            "version": "2.17.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rmrevin/yii2-fontawesome.git",
-                "reference": "2ebb38f62727a46dcd06d27bb73c4a5833b54f74"
+                "reference": "65ce306da864f4d558348aeba040ed7876878090"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rmrevin/yii2-fontawesome/zipball/2ebb38f62727a46dcd06d27bb73c4a5833b54f74",
-                "reference": "2ebb38f62727a46dcd06d27bb73c4a5833b54f74",
+                "url": "https://api.github.com/repos/rmrevin/yii2-fontawesome/zipball/65ce306da864f4d558348aeba040ed7876878090",
+                "reference": "65ce306da864f4d558348aeba040ed7876878090",
                 "shasum": ""
             },
             "require": {
@@ -460,7 +464,7 @@
                 "font",
                 "yii"
             ],
-            "time": "2017-04-03T14:19:13+00:00"
+            "time": "2017-01-11T14:05:47+00:00"
         },
         {
             "name": "yiisoft/yii2",
@@ -568,12 +572,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-bootstrap.git",
-                "reference": "0c74f9c383f366e8cd0892fccb2158bf52a0839e"
+                "reference": "3d40965ca284aa70081fbbd679cf2c3686160726"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/0c74f9c383f366e8cd0892fccb2158bf52a0839e",
-                "reference": "0c74f9c383f366e8cd0892fccb2158bf52a0839e",
+                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/3d40965ca284aa70081fbbd679cf2c3686160726",
+                "reference": "3d40965ca284aa70081fbbd679cf2c3686160726",
                 "shasum": ""
             },
             "require": {
@@ -620,7 +624,7 @@
                 "bootstrap",
                 "yii2"
             ],
-            "time": "2018-03-14T22:31:15+00:00"
+            "time": "2018-05-04T06:55:14+00:00"
         },
         {
             "name": "yiisoft/yii2-composer",
@@ -628,12 +632,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-composer.git",
-                "reference": "248f7065a352273b15a9f624be63830f360a59f2"
+                "reference": "f4cb50d40ed34fc6f6b100d1a515dbdbc65e40ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/248f7065a352273b15a9f624be63830f360a59f2",
-                "reference": "248f7065a352273b15a9f624be63830f360a59f2",
+                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/f4cb50d40ed34fc6f6b100d1a515dbdbc65e40ac",
+                "reference": "f4cb50d40ed34fc6f6b100d1a515dbdbc65e40ac",
                 "shasum": ""
             },
             "require": {
@@ -662,6 +666,10 @@
                 {
                     "name": "Qiang Xue",
                     "email": "qiang.xue@gmail.com"
+                },
+                {
+                    "name": "Carsten Brandt",
+                    "email": "mail@cebe.cc"
                 }
             ],
             "description": "The composer plugin for Yii extension installer",
@@ -670,7 +678,7 @@
                 "extension installer",
                 "yii2"
             ],
-            "time": "2017-08-01T14:22:25+00:00"
+            "time": "2018-08-25T10:44:34+00:00"
         },
         {
             "name": "yiisoft/yii2-debug",
@@ -678,17 +686,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-debug.git",
-                "reference": "f49234bdb54a9a5baef52a1ac73b7e5f33fab7b3"
+                "reference": "9748a0c72fb3f694da33e832110c07ae6673ad46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/f49234bdb54a9a5baef52a1ac73b7e5f33fab7b3",
-                "reference": "f49234bdb54a9a5baef52a1ac73b7e5f33fab7b3",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/9748a0c72fb3f694da33e832110c07ae6673ad46",
+                "reference": "9748a0c72fb3f694da33e832110c07ae6673ad46",
                 "shasum": ""
             },
             "require": {
-                "yiisoft/yii2": "~2.0.13",
-                "yiisoft/yii2-bootstrap": "~2.0.0"
+                "ext-mbstring": "*",
+                "php": ">=5.4",
+                "yiisoft/yii2": "~2.0.13"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "<7",
+                "yiisoft/yii2-coding-standards": "~2.0",
+                "yiisoft/yii2-swiftmailer": "*"
             },
             "type": "yii2-extension",
             "extra": {
@@ -709,6 +723,10 @@
                 {
                     "name": "Qiang Xue",
                     "email": "qiang.xue@gmail.com"
+                },
+                {
+                    "name": "Simon Karlen",
+                    "email": "simi.albi@outlook.com"
                 }
             ],
             "description": "The debugger extension for the Yii framework",
@@ -717,7 +735,7 @@
                 "debugger",
                 "yii2"
             ],
-            "time": "2018-02-28T23:27:35+00:00"
+            "time": "2018-12-04T19:21:30+00:00"
         }
     ],
     "packages-dev": [],

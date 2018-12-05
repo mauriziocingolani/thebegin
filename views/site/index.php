@@ -312,7 +312,7 @@ MainAsset::register($this);
                     Sede legale: Via delle Fornaci, 155<br />
                     00165 - Roma (RM) Italy<br />
                     P.I. e C.F. 09882480156<br />
-                    tel. +39 071 2850
+                    tel. +39 071 2850150
                 </h3>
             </div>
         </div>
