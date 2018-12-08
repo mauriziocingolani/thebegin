@@ -1,2 +1,5 @@
 /vendor
 /config/files/
+.gitignore
+composer.lock
+.DS_Store
