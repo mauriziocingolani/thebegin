@@ -22,13 +22,16 @@
         "mauriziocingolani/yii2-fmwk-php": "*",
         "rmrevin/yii2-fontawesome": "2.17.1"
     },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
     "config": {
         "process-timeout": 1800,
-        "fpx-asset": {
-            "installer-paths": {
-                "npm-asset-library": "vendor/npm",
-                "bower-asset-library": "vendor/bower"
-            }
+        "fxp-asset": {
+            "enabled": false
         }
     }
 }

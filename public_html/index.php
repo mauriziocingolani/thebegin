@@ -2,7 +2,6 @@
 
 require './constants.php';
 
-
 if (OFFLINE_SW)
     die('Sito in manutenzione. Si prega di riprovare più tardi.');
 

@@ -15,6 +15,10 @@ $config->addUserModule();
 //if (true || ($_SERVER['REMOTE_ADDR'] != '93.66.217.147' && $_SERVER['REMOTE_ADDR'] != '151.0.134.82'))
 //    $config->catchAll = ['site/comingsoon'];
 $config->version = '1.0';
+$config->setAlias([
+    '@bower' => '@vendor/bower-asset',
+    '@npm' => '@vendor/npm-asset',
+]);
 $config->debugIps = require '../config/files/ips.php';
 //$config->setHttps();
 return $config->getConfig();
