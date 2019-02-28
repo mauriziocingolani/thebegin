@@ -11,7 +11,7 @@ MainAsset::register($this);
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
-            <img src="/img/TB COLLECTION_orizzontale_white-02.png" alt="The Begin Collection" style="width: 200px;" />
+            <img src="/img/begin-10.png" alt="The Begin Collection" style="width: 200px;" />
         </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
@@ -135,18 +135,21 @@ MainAsset::register($this);
             </div>
             <div class="col-sm-4">
                 <div class="team-member">
-                    <a href="http://www.excelsiorlafonte.it" target="blank">
-                        <img class="mx-auto rounded-circle" src="img/team/lafonte.jpg" alt="">
+                    <a href="https://www.seebayhotel.com" target="blank">
+                        <img class="mx-auto rounded-circle" src="img/team/seebay.png" alt="">
                     </a>
-                    <p class="text-muted"><a href="http://www.excelsiorlafonte.it" target="blank">www.excelsiorlafonte.it</a></p>
+                    <p class="text-muted"><a href="https://www.seebayhotel.com" target="blank">www.seebayhotel.com</a></p>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="team-member">
-                    <a href="http://www.villakalysta.com" target="blank">
+                    <a href="#" target="blank" onclick="return false;">
                         <img class="mx-auto rounded-circle" src="img/team/kalista.jpg" alt="">
                     </a>
-                    <p class="text-muted"><a href="http://www.villakalysta.com" target="blank">www.villakalysta.com</a></p>
+                    <p class="text-muted">
+                        &nbsp;
+                        <!--<a href="http://www.villakalysta.com" target="blank">www.villakalysta.com</a>-->
+                    </p>
                 </div>
             </div>
         </div>
@@ -291,9 +294,9 @@ MainAsset::register($this);
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 portfolio-item">
-                <img class="img-fluid" src="img/portfolio/CORFU.jpg" alt="">
+                <img class="img-fluid" src="img/portfolio/NUMANA.jpg" alt="">
                 <div class="portfolio-caption">
-                    <h4>Corf&ugrave; - Greece</h4>
+                    <h4>Numana - Italy</h4>
                     <!--<p class="text-muted">???</p>-->
                 </div>
             </div>
