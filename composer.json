@@ -16,7 +16,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "yiisoft/yii2": "2.0.16",
+        "yiisoft/yii2": "2.0.16.1",
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-debug": "*",
         "mauriziocingolani/yii2-fmwk-php": "*",

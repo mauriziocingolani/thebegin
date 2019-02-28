@@ -128,7 +128,7 @@ MainAsset::register($this);
             <div class="col-sm-4">
                 <div class="team-member">
                     <a href="http://www.seeporthotel.com" target="blank">
-                        <img class="mx-auto rounded-circle" src="img/team/seeport.jpg" alt="" />
+                        <img class="mx-auto rounded-circle" src="img/team/seeport.png" alt="" />
                     </a>
                     <p class="text-muted"><a href="http://www.seeporthotel.com" target="blank">www.seeporthotel.com</a></p>
                 </div>
