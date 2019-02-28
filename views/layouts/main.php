@@ -27,7 +27,7 @@ use mauriziocingolani\yii2fmwkphp\Html;
         <div class="content">
             <?= $content ?>
         </div>
-
+        
         <?php $this->endBody(); ?>
     </body>
 

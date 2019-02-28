@@ -16,11 +16,11 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "yiisoft/yii2": "2.0.15",
+        "yiisoft/yii2": "2.0.16",
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-debug": "*",
         "mauriziocingolani/yii2-fmwk-php": "*",
-        "rmrevin/yii2-fontawesome": "2.17.1"
+        "rmrevin/yii2-fontawesome": "*"
     },
     "repositories": [
         {
