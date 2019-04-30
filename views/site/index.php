@@ -40,14 +40,44 @@ MainAsset::register($this);
 </nav>
 
 <!-- Header -->
-<header class="masthead">
-    <div class="container">
-        <div class="intro-text">
-            <!--<div class="intro-lead-in">Welcome</div>-->
-            <div class="intro-heading">Being away, feeling at home</div>
-            <div style="height: 75px;">&nbsp;</div>
-            <!--<a class="btn btn-xl js-scroll-trigger" href="#services">Read More</a>-->
+<header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active" style="background-image: url('/img/slider/1.jpg')">
+                <div class="d-flex h-100 align-items-center justify-content-center">
+                    <h2 class="display-4 text-center">Being away, feeling at home</h2>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('/img/slider/2.jpg')">
+                <div class="d-flex h-100 align-items-center justify-content-center">
+                    <h2 class="display-4 text-center">Being away, feeling at home</h2>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('/img/slider/3.jpg')">
+                <div class="d-flex h-100 align-items-center justify-content-center">
+                    <h2 class="display-4 text-center">Being away, feeling at home</h2>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('/img/slider/4.jpg')">
+                <div class="d-flex h-100 align-items-center justify-content-center">
+                    <h2 class="display-4 text-center">Being away, feeling at home</h2>
+                </div>
+            </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
 </header>
 

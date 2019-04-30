@@ -1,5 +1,5 @@
 {
-    "name": "mauriziocingolani/thebegin collection",
+    "name": "mauriziocingolani/thebegincollection",
     "description": "Yii 2 Sito The Begin Collection",
     "authors": [
         {
@@ -16,7 +16,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "yiisoft/yii2": "2.0.16.1",
+        "yiisoft/yii2": "2.0.18",
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-debug": "*",
         "mauriziocingolani/yii2-fmwk-php": "*",
