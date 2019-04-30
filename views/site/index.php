@@ -51,22 +51,22 @@ MainAsset::register($this);
         <div class="carousel-inner" role="listbox">
             <div class="carousel-item active" style="background-image: url('/img/slider/1.jpg')">
                 <div class="d-flex h-100 align-items-center justify-content-center">
-                    <h2 class="display-4 text-center">Being away, feeling at home</h2>
+                    <h2 class="display-4 text-center" style="font-weight: 700;">Being away, feeling at home</h2>
                 </div>
             </div>
             <div class="carousel-item" style="background-image: url('/img/slider/2.jpg')">
                 <div class="d-flex h-100 align-items-center justify-content-center">
-                    <h2 class="display-4 text-center">Being away, feeling at home</h2>
+                    <h2 class="display-4 text-center" style="font-weight: 700;">Being away, feeling at home</h2>
                 </div>
             </div>
             <div class="carousel-item" style="background-image: url('/img/slider/3.jpg')">
                 <div class="d-flex h-100 align-items-center justify-content-center">
-                    <h2 class="display-4 text-center">Being away, feeling at home</h2>
+                    <h2 class="display-4 text-center" style="font-weight: 700;">Being away, feeling at home</h2>
                 </div>
             </div>
             <div class="carousel-item" style="background-image: url('/img/slider/4.jpg')">
                 <div class="d-flex h-100 align-items-center justify-content-center">
-                    <h2 class="display-4 text-center">Being away, feeling at home</h2>
+                    <h2 class="display-4 text-center" style="font-weight: 700;">Being away, feeling at home</h2>
                 </div>
             </div>
         </div>
@@ -87,11 +87,10 @@ MainAsset::register($this);
         <div class="row">
             <div class="col-sm-4"></div>
             <div class="col-lg-4 text-center">
-                <h2 class="section-heading">About Us</h2>
+                <h2 class="section-heading">Embrace Your Senses</h2>
                 <h3 class="section-subheading text-muted">
-                    To manage a limited number of properties is a choice,
-                    aimed at guaranteeing efficiency in the administration,
-                    attention to details, focus on promotion and development.
+                    The real exclusivity of our hotels is their inclusiveness. Like an embrace. A welcoming and enveloping embrace, 
+                    never intrusive. As the very refinement is, today, coming back to the Essence: of things, of places, of emotions
                     <br />
                     <br />
                     <em><small>(Guido Guidi - Founder)</small></em>
@@ -101,27 +100,7 @@ MainAsset::register($this);
         <div class="row text-center p-italiano">
             <div class="col-sm-3"></div>
             <div class="col-sm-6">
-                L&apos;accoglienza &egrave; un&apos;arte d&apos;antica tradizione che si rinnova nel tempo. 
-                The Begin ha come obiettivo garantire ai propri ospiti un soggiorno indimenticabile, in un ambiente
-                esclusivo dove regna l&apos;armonia. Grazie al binomio perfetto di professionalit&agrave; e familiarit&agrave;, 
-                ogni ospite si sentir&agrave; come a casa, circondato di attenzioni, con proposte personalizzate: 
-                dallo studio dello stile, alla scelta della cucina. Lo staff, altamente specializzato, sa ascoltare, intuire
-                i gusti, anticipare le esigenze di chi arriva, per regalare un&apos;emozione autentica. La cura dei dettagli, 
-                la riservatezza, la cortesia creano un clima di &ldquo;familiare&nbsp;professionalit&agrave;&rdquo;.
-                <p style="margin-top: 15px;">Ridefiniamo un nuovo concetto di Lusso: <strong>il Lusso di vivere bene la vita</strong>.</p>
-            </div>
-        </div>
-        <hr />
-        <div class="row text-center p-inglese">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-6">
-                Hospitality is an ancient skill that has evolved over time. The Begin&apos;s aim is to guarantee an 
-                unforgettable stay for our guests, within an exclusive place where harmony reigns. Thanks to the perfect 
-                duo of &ldq&ldquo;friendly-professionalism&rdquo; every single guest will feel at home with a personalised 
-                stay, from the choice of the hotel style, to the Chef&apos;s dishes. Our Staff, highly qualified, knows how to listen
-                to our guests, recognize their taste and anticipate their needs in order to give them a genuine experience. 
-                The attention to detail, discretion and courtesy create an environment of &ldquo;familiar professionalism&rdquo;.   
-                <p style="margin-top: 15px;">We redefine the concept of luxury: <strong>the luxury of living life well</strong>. </p>
+                Enchanting venues with an outstanding address. Where everything is tailor-made. With bespoke designs. Authentic and elegant venues. Real microcosmos to enjoy. For The Begin Hotels hospitality is an art form, an ancient tradition that is reiterated with time. Its boutique hotels give values a new lease of life, shaped to new contexts, new needs and wishes. Sophisticated balances, like the ones between a desire to get away and seek protection, between experimenting with new worlds and feeling right at home. An embrace that knows exactly how to be discrete and gentle. Just like a butterfly. A relationship which, despite being highly professional, is far from cold and standard. Here, nothing is sterile, everything is familiar. Spontaneous. Because hospitality always involves the pleasure of serving, the curiosity of discovering and being discovered, the desire to convey a Story. Genuine and authentic.
             </div>
         </div>
     </div>
@@ -140,21 +119,11 @@ MainAsset::register($this);
         <div class="row text-center p-italiano">
             <div class="col-sm-3"></div>
             <div class="col-sm-6">
-                The Begin Collection &egrave; una mini catena di hotel boutique, resort e ville di lusso situate in 
-                prestigiose localit&agrave; europee. Sulla base di un nuovo concetto di esperienza di viaggio, 
-                combiniamo il lusso di vivere bene la vita con il tradizionale concetto di ospitalit&agrave;. 
+                The Begin Hotels is a mini chain of boutique hotels, resorts and luxury villas situated in prestigious European locations. Based on a refreshed idea of travel experience, we combine the luxury of living a good life with the traditional concept of hospitality.
             </div>
         </div>
         <hr />
-        <div class="row text-center p-inglese">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-6">
-                The Begin Collection is a mini chain of boutique hotels, resorts and luxury villas situated in prestigious
-                European locations. Based on a refreshed idea of travel experience, we combine the luxury of living a
-                good life with the traditional concept of hospitality. 
-            </div>
-        </div>
-        <div class="row" style="margin-top: 75px;">
+        <div class="row justify-content-sm-center" style="margin-top: 75px;">
             <div class="col-sm-4">
                 <div class="team-member">
                     <a href="http://www.seeporthotel.com" target="blank">
@@ -169,17 +138,6 @@ MainAsset::register($this);
                         <img class="mx-auto rounded-circle" src="img/team/seebay.png" alt="">
                     </a>
                     <p class="text-muted"><a href="https://www.seebayhotel.com" target="blank">www.seebayhotel.com</a></p>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <a href="#" target="blank" onclick="return false;">
-                        <img class="mx-auto rounded-circle" src="img/team/kalista.jpg" alt="">
-                    </a>
-                    <p class="text-muted">
-                        &nbsp;
-                        <!--<a href="http://www.villakalysta.com" target="blank">www.villakalysta.com</a>-->
-                    </p>
                 </div>
             </div>
         </div>
@@ -312,21 +270,21 @@ MainAsset::register($this);
             <div class="col-md-4 col-sm-6 portfolio-item">
                 <img class="img-fluid" src="img/portfolio/ANCONA.jpg" alt="">
                 <div class="portfolio-caption">
-                    <h4>Ancona - Italy</h4>
+                    <h4>Ancona</h4>
                     <!--<p class="text-muted">???</p>-->
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 portfolio-item">
                 <img class="img-fluid" src="img/portfolio/PORTONOVO.jpg" alt="">
                 <div class="portfolio-caption">
-                    <h4>Portonovo - Italy</h4>
+                    <h4>Portonovo</h4>
                     <!--<p class="text-muted">???</p>-->
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 portfolio-item">
                 <img class="img-fluid" src="img/portfolio/NUMANA.jpg" alt="">
                 <div class="portfolio-caption">
-                    <h4>Numana - Italy</h4>
+                    <h4>Riviera del Conero</h4>
                     <!--<p class="text-muted">???</p>-->
                 </div>
             </div>
