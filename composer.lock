@@ -53,7 +53,7 @@
             "version": "3.3.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jquery/jquery-dist.git",
+                "url": "git@github.com:jquery/jquery-dist.git",
                 "reference": "9e8ec3d10fad04748176144f108d7355662ae75e"
             },
             "dist": {
@@ -314,12 +314,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "b80830c5f8c221b8bd6a830c5b2f45544f82c4d7"
+                "reference": "be563f0211bd5d4424680d0fcdef578090f08e41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/b80830c5f8c221b8bd6a830c5b2f45544f82c4d7",
-                "reference": "b80830c5f8c221b8bd6a830c5b2f45544f82c4d7",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/be563f0211bd5d4424680d0fcdef578090f08e41",
+                "reference": "be563f0211bd5d4424680d0fcdef578090f08e41",
                 "shasum": ""
             },
             "require": {
@@ -532,12 +532,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-debug.git",
-                "reference": "5a5dcd65a7a3dd1f95b0482f5d107af02188266d"
+                "reference": "5d4020c5734cbfaa686afe4ddf438bd5ee51ee53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/5a5dcd65a7a3dd1f95b0482f5d107af02188266d",
-                "reference": "5a5dcd65a7a3dd1f95b0482f5d107af02188266d",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/5d4020c5734cbfaa686afe4ddf438bd5ee51ee53",
+                "reference": "5d4020c5734cbfaa686afe4ddf438bd5ee51ee53",
                 "shasum": ""
             },
             "require": {
@@ -581,7 +581,7 @@
                 "debugger",
                 "yii2"
             ],
-            "time": "2019-04-23T13:17:41+00:00"
+            "time": "2019-04-30T15:21:55+00:00"
         }
     ],
     "packages-dev": [],

@@ -140,6 +140,14 @@ MainAsset::register($this);
                     <p class="text-muted"><a href="https://www.seebayhotel.com" target="blank">www.seebayhotel.com</a></p>
                 </div>
             </div>
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <a href="http://www.giardinodeipini.it" target="blank">
+                        <img class="mx-auto rounded-circle" src="img/team/giardinodeipini.png" alt="">
+                    </a>
+                    <p class="text-muted"><a href="http://www.giardinodeipini.it" target="blank">www.giardinodeipini.com</a></p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -282,9 +290,9 @@ MainAsset::register($this);
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 portfolio-item">
-                <img class="img-fluid" src="img/portfolio/NUMANA.jpg" alt="">
+                <img class="img-fluid" src="img/portfolio/SALENTO.jpg" alt="">
                 <div class="portfolio-caption">
-                    <h4>Riviera del Conero</h4>
+                    <h4>Salento</h4>
                     <!--<p class="text-muted">???</p>-->
                 </div>
             </div>
@@ -310,7 +318,7 @@ MainAsset::register($this);
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div id="success"></div>
-                <a href="mailto:info@thebegin.it" class="btn btn-xl" >Send Message</a>
+                <a href="mailto:info@thebeginhotels.com" class="btn btn-xl" >Send Message</a>
             </div>
         </div>
     </div>
@@ -352,5 +360,25 @@ MainAsset::register($this);
         </div>
     </div>
 </footer>
+
+<?php if (Yii::$app->request->userIP == '2.38.53.65') : ?>
+
+    <div id="covid-modal" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <div class="modal-body text-center">
+                    <h1 style="margin-bottom: 25px;">COVID-19 UPDATE</h1>
+                    <p style="margin-bottom: 25px;">Scopri le nostre misure di sicurezza</p>
+                    <hr />
+                    <a id="covid-dismiss" href="#" style="margin-right: 20px;">No grazie</a>
+                    <a id="covid-view" href="#" class="btn btn-primary nothanks" data-dismiss="modal" aria-hidden="true">VISUALIZZA</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<?php endif; ?>
 
 <?= $this->renderInclude('_cookies'); ?>

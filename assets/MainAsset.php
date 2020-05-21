@@ -24,6 +24,7 @@ class MainAsset extends AssetBundle {
         'js/main/jqBootstrapValidation.js',
         'js/main/contact_me.js',
         'js/main/agency.min.js',
+        'js/main/home.js',
     ];
     public $depends = [
         '\rmrevin\yii\fontawesome\AssetBundle',
