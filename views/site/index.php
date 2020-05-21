@@ -361,24 +361,20 @@ MainAsset::register($this);
     </div>
 </footer>
 
-<?php if (Yii::$app->request->userIP == '2.38.53.65') : ?>
+<div id="covid-modal" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
 
-    <div id="covid-modal" class="modal" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-
-                <div class="modal-body text-center">
-                    <h1 style="margin-bottom: 25px;">COVID-19 UPDATE</h1>
-                    <p style="margin-bottom: 25px;">Scopri le nostre misure di sicurezza</p>
-                    <hr />
-                    <a id="covid-dismiss" href="#" style="margin-right: 20px;">No grazie</a>
-                    <a id="covid-view" href="#" class="btn btn-primary nothanks" data-dismiss="modal" aria-hidden="true">VISUALIZZA</a>
-                </div>
-
+            <div class="modal-body text-center">
+                <h1 style="margin-bottom: 25px;">COVID-19 UPDATE</h1>
+                <p style="margin-bottom: 25px;">Scopri le nostre misure di sicurezza</p>
+                <hr />
+                <a id="covid-dismiss" href="#" style="margin-right: 20px;">No grazie</a>
+                <a id="covid-view" href="#" class="btn btn-primary nothanks" data-dismiss="modal" aria-hidden="true">VISUALIZZA</a>
             </div>
+
         </div>
     </div>
-
-<?php endif; ?>
+</div>
 
 <?= $this->renderInclude('_cookies'); ?>
